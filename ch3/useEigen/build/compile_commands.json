@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/otooleat/slambook2/ch3/useEigen/build",
+  "command": "/usr/bin/g++  -I/usr/include/eigen3 -g -o CMakeFiles/eigenMatrix.dir/eigenMatrix.o -c /home/otooleat/slambook2/ch3/useEigen/eigenMatrix.cpp",
+  "file": "/home/otooleat/slambook2/ch3/useEigen/eigenMatrix.cpp"
+}
+]

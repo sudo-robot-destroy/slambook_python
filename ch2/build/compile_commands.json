@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/otooleat/slambook2/ch2/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/helloSLAM.dir/helloSLAM.cpp.o -c /home/otooleat/slambook2/ch2/helloSLAM.cpp",
+  "file": "/home/otooleat/slambook2/ch2/helloSLAM.cpp"
+},
+{
+  "directory": "/home/otooleat/slambook2/ch2/build",
+  "command": "/usr/bin/g++ -Dhello_shared_EXPORTS  -g -fPIC -o CMakeFiles/hello_shared.dir/libHelloSLAM.cpp.o -c /home/otooleat/slambook2/ch2/libHelloSLAM.cpp",
+  "file": "/home/otooleat/slambook2/ch2/libHelloSLAM.cpp"
+},
+{
+  "directory": "/home/otooleat/slambook2/ch2/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/useHello.dir/useHello.cpp.o -c /home/otooleat/slambook2/ch2/useHello.cpp",
+  "file": "/home/otooleat/slambook2/ch2/useHello.cpp"
+}
+]

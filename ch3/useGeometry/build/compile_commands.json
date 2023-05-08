@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/otooleat/slambook2/ch3/useGeometry/build",
+  "command": "/usr/bin/g++  -I/usr/include/eigen3 -g -o CMakeFiles/useGeometry.dir/useGeometry.o -c /home/otooleat/slambook2/ch3/useGeometry/useGeometry.cpp",
+  "file": "/home/otooleat/slambook2/ch3/useGeometry/useGeometry.cpp"
+},
+{
+  "directory": "/home/otooleat/slambook2/ch3/useGeometry/build",
+  "command": "/usr/bin/g++  -I/usr/include/eigen3 -g -o CMakeFiles/coordinateTransform.dir/coordinateTransform.o -c /home/otooleat/slambook2/ch3/useGeometry/coordinateTransform.cpp",
+  "file": "/home/otooleat/slambook2/ch3/useGeometry/coordinateTransform.cpp"
+}
+]

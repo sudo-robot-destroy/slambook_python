@@ -1,0 +1,95 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/otooleat/slambook2/ch5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_da58d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_da58d.dir/build.make CMakeFiles/cmTC_da58d.dir/build
+gmake[1]: Entering directory '/home/otooleat/slambook2/ch5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da58d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_da58d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_da58d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da58d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_da58d.dir/CheckFunctionExists.c.o -o cmTC_da58d 
+/usr/bin/ld: CMakeFiles/cmTC_da58d.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_da58d.dir/build.make:99: cmTC_da58d] Error 1
+gmake[1]: Leaving directory '/home/otooleat/slambook2/ch5/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_da58d/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/otooleat/slambook2/ch5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_705e4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_705e4.dir/build.make CMakeFiles/cmTC_705e4.dir/build
+gmake[1]: Entering directory '/home/otooleat/slambook2/ch5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_705e4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_705e4.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_705e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_705e4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_705e4.dir/CheckFunctionExists.c.o -o cmTC_705e4  /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_705e4.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_705e4.dir/build.make:102: cmTC_705e4] Error 1
+gmake[1]: Leaving directory '/home/otooleat/slambook2/ch5/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_705e4/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/otooleat/slambook2/ch5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_90979/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_90979.dir/build.make CMakeFiles/cmTC_90979.dir/build
+gmake[1]: Entering directory '/home/otooleat/slambook2/ch5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90979.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_90979.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_90979
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90979.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_90979.dir/CheckFunctionExists.c.o -o cmTC_90979  /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so -fortranlibs 
+cc: error: unrecognized command-line option ‘-fortranlibs’
+gmake[1]: *** [CMakeFiles/cmTC_90979.dir/build.make:103: cmTC_90979] Error 1
+gmake[1]: Leaving directory '/home/otooleat/slambook2/ch5/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_90979/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/otooleat/slambook2/ch5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_195f3 && [1/2] Building C object CMakeFiles/cmTC_195f3.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_195f3
+FAILED: cmTC_195f3 
+: && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_195f3.dir/CheckFunctionExists.c.o -o cmTC_195f3   && :
+/usr/bin/ld: CMakeFiles/cmTC_195f3.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/otooleat/slambook2/ch5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d3a2e && [1/2] Building C object CMakeFiles/cmTC_d3a2e.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_d3a2e
+FAILED: cmTC_d3a2e 
+: && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_d3a2e.dir/CheckFunctionExists.c.o -o cmTC_d3a2e  /usr/lib/x86_64-linux-gnu/libblas.so  /usr/lib/x86_64-linux-gnu/libf77blas.so  /usr/lib/x86_64-linux-gnu/libatlas.so  -lm  -ldl && :
+/usr/bin/ld: CMakeFiles/cmTC_d3a2e.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/otooleat/slambook2/ch5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4b3d4 && [1/2] Building C object CMakeFiles/cmTC_4b3d4.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_4b3d4
+FAILED: cmTC_4b3d4 
+: && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_4b3d4.dir/CheckFunctionExists.c.o -o cmTC_4b3d4  /usr/lib/x86_64-linux-gnu/liblapack.so  /usr/lib/x86_64-linux-gnu/libblas.so  /usr/lib/x86_64-linux-gnu/libf77blas.so  /usr/lib/x86_64-linux-gnu/libatlas.so  -fortranlibs && :
+gcc: error: unrecognized command-line option ‘-fortranlibs’
+ninja: build stopped: subcommand failed.
+
+
+

@@ -1,0 +1,4 @@
+/home/otooleat/slambook2/ch5/build/CMakeFiles/ceresCurveFitting.dir
+/home/otooleat/slambook2/ch5/build/CMakeFiles/g2oCurveFitting.dir
+/home/otooleat/slambook2/ch5/build/CMakeFiles/edit_cache.dir
+/home/otooleat/slambook2/ch5/build/CMakeFiles/rebuild_cache.dir
